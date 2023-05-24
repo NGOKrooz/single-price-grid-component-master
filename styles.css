@@ -1,0 +1,198 @@
+@font-face {
+    font-family: font;
+    src: url(/font/Fraunces-Italic-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: font1;
+    src: url(font/Montserrat-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: font2;
+    src: url(font/Puasa\ Ramadhan.otf);
+}
+
+body {
+    background-color: hsl(218, 22%, 90%);
+
+}
+
+.main {
+    width: 550px;
+    background-color: white;
+    height: fit-content;
+    border-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+}
+
+.group1 {
+    padding: 10px 30px;
+}
+
+.group2 {
+    background-color: hsl(179, 62%, 43%);
+    width: 100%;
+    display: flex;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.group21 {
+    padding: 23px;
+    color: white;
+
+}
+
+.group22 {
+    background-color: hsl(179, 62%, 47%);
+    width: 100%;
+    padding-top: 20px;
+    color: white;
+    padding-bottom: 1px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+
+}
+
+h1 {
+    color: hsl(179, 62%, 47%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+h2 {
+    color: hsl(71, 73%, 54%);
+    font-size: 23px;
+}
+
+h3 {
+    font-family: font1;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.price {
+    display: flex;
+    width: 100px;
+}
+
+.p1 {
+    font-family: font;
+    color: white;
+    font-size: 28px;
+    margin: 5px;
+
+}
+
+.p2 {
+    color: hsl(0, 0%, 85%);
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 7px;
+    white-space: nowrap;
+}
+
+.a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    color: hsl(204, 43%, 80%);
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.a1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: hsl(0, 0%, 95%);
+    font-size: 14px;
+    margin-top: 7px;
+    white-space: nowrap;
+}
+
+.a2 {
+    color: hsl(0, 0%, 85%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+.Y {
+    margin-left: 35px;
+}
+
+button {
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    border: none;
+    padding: 15px 85px;
+    margin-top: 20px;
+    border-radius: 5px;
+    white-space: nowrap;
+}
+
+@media screen and (max-width: 585px) {
+    .main {
+        width: fit-content;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .main {
+        width: 365px;
+        margin-top: 70px; 
+    }
+
+    .group2 {
+        display: inline-block;
+        width: 100%;
+    }
+
+    h1 {
+
+        font-size: 17px;
+    }
+
+    h2 {
+        font-size: 17px;
+    }
+
+    .a {
+        font-size: 14px;
+    }
+
+    h3 {
+        font-size: 17px;
+    }
+
+    .Y {
+        font-size: 17px;
+    }
+
+}
+@media screen and (max-width: 400px) {
+    .main {
+        width: 100%;  
+        
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .main {
+        width: 265px;
+    }
+}
+@media screen and (max-width: 300px) {
+    .main {
+        width: 100%;
+    }
+}
